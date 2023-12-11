@@ -27,8 +27,8 @@ public class ListaAlunosView {
     public void confirmaRemocao(final MenuItem item) {
         new AlertDialog
                 .Builder(context)
-                .setTitle("Removendo Aluno")
-                .setMessage("Tem certeza que quer remover?")
+                .setTitle("Removendo registro")
+                .setMessage("Tem certeza que deseja remover?")
                 .setPositiveButton("Sim", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
